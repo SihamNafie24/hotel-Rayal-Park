@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rayal Park - Luxury Hotel Experience</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Add icon logo -->
+    <link rel="icon" href="img/rayalpark.png" />
+
+    <!-- Add necessary file and cdn -->
+    <link rel="stylesheet" href="style/stylesheet.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/18cbcebdd2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navbar and main section -->
+    <div class="main-section" id="main-section">
+      <div class="navbar" id="navbar">
+        <div class="left-navbar" id="left-navbar">
+          <div class="logo">
+            <a href="#">Rayal Park</a>
+          </div>
+          <div class="navbar-option" id="navbar-option">
+            <a href="#main-section">Home</a>
+            <a href="#about-section">About</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#blog-and-news">Blog</a>
+          </div>
+        </div>
+        <div class="right-navbar">
+          <a href="#" class="bookNow">BOOK NOW</a>
+          <a
+            href="javascript:void(0);"
+            class="hamburger"
+            onclick="hamburgerClick()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <div class="main-contents horizontal-hero">
+        <div class="main-hero-overlay">
+          <div class="container-main horizontal-content">
+            <div class="main-headings">
+              <h1>Experience Luxury</h1>
+              <h1>Like Never Before</h1>
+            </div>
+            <div class="main-description">
+              <p class="main">
+                Discover unparalleled comfort and elegance at Rayal Park. Where every moment becomes a cherished memory.
+              </p>
+              <a href="#pricing" class="bookNow" style="margin-top: 2rem;">Explore Rooms</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Company description section -->
+    <div class="about-section" id="about-section">
+      <div class="container">
+        <div class="about-contents">
+          <div class="image-about" data-aos="fade-right">
+            <div class="image-stack">
+              <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Luxury Resort" class="main-image" />
+              <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Luxury Interior" class="overlay-image" />
+            </div>
+            <div class="experience-badge">
+              <span class="number">25+</span>
+              <span class="text">Years of Excellence</span>
+            </div>
+          </div>
+          <div class="box-about" data-aos="fade-left">
+            <div class="box-contents">
+              <div class="section-subtitle">About Us</div>
+              <h2>Where Luxury Meets Comfort</h2>
+              <p class="highlight-text">
+                Experience the perfect blend of modern luxury and timeless elegance at Rayal Park. Our commitment to excellence ensures an unforgettable stay.
+              </p>
+              <div class="features-grid">
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <h5>World-Class Amenities</h5>
+                  <p>From our award-winning restaurants to our state-of-the-art spa facilities, every detail has been carefully curated.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="fa fa-heart"></i>
+                  </div>
+                  <h5>Exceptional Service</h5>
+                  <p>Our dedicated staff ensures personalized attention and care throughout your stay with us.</p>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-icon">
+                    <i class="fa fa-trophy"></i>
+                  </div>
+                  <h5>Award-Winning</h5>
+                  <p>Recognized globally for our commitment to excellence and outstanding hospitality.</p>
+                </div>
+              </div>
+            </div>
+            <div class="continue-button">
+              <a href="#" class="discover-more">
+                Discover More
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services section -->
+    <div class="our-services" id="services">
+      <div class="container">
+        <div class="services-contents">
+          <div class="box-description" data-aos="fade-up">
+            <h2>Premium Services</h2>
+            <p>
+              Experience excellence in every detail with our comprehensive range of luxury services.
+            </p>
+            <div class="services">
+              <div class="services-icon">
+                <h4>
+                  <span class="fa fa-cutlery orange" aria-hidden="true"></span
+                  >Gourmet Dining
+                </h4>
+              </div>
+              <div class="services-icon">
+                <h4>
+                  <span class="fa fa-lock blue" aria-hidden="true"></span>Premium
+                  Security
+                </h4>
+              </div>
+              <div class="services-icon">
+                <h4>
+                  <span class="fa fa-clock-o green" aria-hidden="true"></span
+                  >Concierge Service
+                </h4>
+              </div>
+              <div class="services-icon">
+                <h4>
+                  <span
+                    class="fa fa-hourglass-o purple"
+                    aria-hidden="true"
+                  ></span
+                  >24/7 Support
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="image-services" data-aos="fade-up">
+            <img src="img/services.jpg" alt="Luxury Services" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing section -->
+    <div class="best-plans" id="pricing" data-aos="fade-up">
+      <div class="container">
+        <div class="heading-blog">
+          <h2>Luxury Accommodations</h2>
+          <div class="blog-container">
+            <p>
+              Choose from our carefully curated selection of rooms and suites, each designed to provide the perfect blend of comfort and luxury.
+            </p>
+          </div>
+        </div>
+        <div class="plan-contents">
+          <!-- Classic Suites -->
+          <div class="plan-card" data-aos="fade-down">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Classic Suite" />
+            <div class="plan-content">
+              <h4>Classic Suite</h4>
+              <div class="price">
+                <p><span>$150</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Gourmet Breakfast</p>
+                <p>King Size Bed</p>
+                <p>City View</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Deluxe Suite" />
+            <div class="plan-content">
+              <h4>Deluxe Suite</h4>
+              <div class="price">
+                <p><span>$175</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Full Board Meals</p>
+                <p>Ocean View</p>
+                <p>Private Balcony</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Executive Suite" />
+            <div class="plan-content">
+              <h4>Executive Suite</h4>
+              <div class="price">
+                <p><span>$200</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Chef</p>
+                <p>Panoramic View</p>
+                <p>Butler Service</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Premium Suites -->
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Premium Suite" />
+            <div class="plan-content">
+              <h4>Premium Suite</h4>
+              <div class="price">
+                <p><span>$225</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Pool</p>
+                <p>Garden View</p>
+                <p>24/7 Room Service</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1590490359683-658d3d23f972?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Royal Suite" />
+            <div class="plan-content">
+              <h4>Royal Suite</h4>
+              <div class="price">
+                <p><span>$250</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Terrace</p>
+                <p>Mountain View</p>
+                <p>Personal Concierge</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Luxury Suites -->
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Luxury Suite" />
+            <div class="plan-content">
+              <h4>Luxury Suite</h4>
+              <div class="price">
+                <p><span>$275</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Jacuzzi</p>
+                <p>Beach View</p>
+                <p>VIP Services</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1590490359683-658d3d23f972?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Grand Suite" />
+            <div class="plan-content">
+              <h4>Grand Suite</h4>
+              <div class="price">
+                <p><span>$300</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Dining</p>
+                <p>City Skyline View</p>
+                <p>Chauffeur Service</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Presidential Suites -->
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Presidential Suite" />
+            <div class="plan-content">
+              <h4>Presidential Suite</h4>
+              <div class="price">
+                <p><span>$350</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Spa</p>
+                <p>360° View</p>
+                <p>Executive Assistant</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Imperial Suite" />
+            <div class="plan-content">
+              <h4>Imperial Suite</h4>
+              <div class="price">
+                <p><span>$400</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Gym</p>
+                <p>Panoramic View</p>
+                <p>Security Detail</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Special Suites -->
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1590490359683-658d3d23f972?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Honeymoon Suite" />
+            <div class="plan-content">
+              <h4>Honeymoon Suite</h4>
+              <div class="price">
+                <p><span>$450</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Romantic Dining</p>
+                <p>Ocean View</p>
+                <p>Couple's Spa</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Family Suite" />
+            <div class="plan-content">
+              <h4>Family Suite</h4>
+              <div class="price">
+                <p><span>$425</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Kids Club Access</p>
+                <p>Garden View</p>
+                <p>Family Activities</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Business Suite" />
+            <div class="plan-content">
+              <h4>Business Suite</h4>
+              <div class="price">
+                <p><span>$375</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Meeting Room</p>
+                <p>City View</p>
+                <p>Business Services</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Wellness Suite" />
+            <div class="plan-content">
+              <h4>Wellness Suite</h4>
+              <div class="price">
+                <p><span>$325</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Yoga Studio</p>
+                <p>Nature View</p>
+                <p>Wellness Coach</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Art Suite" />
+            <div class="plan-content">
+              <h4>Art Suite</h4>
+              <div class="price">
+                <p><span>$300</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Gallery</p>
+                <p>City View</p>
+                <p>Art Concierge</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1590490359683-658d3d23f972?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Gourmet Suite" />
+            <div class="plan-content">
+              <h4>Gourmet Suite</h4>
+              <div class="price">
+                <p><span>$350</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Kitchen</p>
+                <p>Garden View</p>
+                <p>Personal Chef</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Music Suite" />
+            <div class="plan-content">
+              <h4>Music Suite</h4>
+              <div class="price">
+                <p><span>$325</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Studio</p>
+                <p>City View</p>
+                <p>Sound System</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Sports Suite" />
+            <div class="plan-content">
+              <h4>Sports Suite</h4>
+              <div class="price">
+                <p><span>$300</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Gym</p>
+                <p>Stadium View</p>
+                <p>Fitness Coach</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Tech Suite" />
+            <div class="plan-content">
+              <h4>Tech Suite</h4>
+              <div class="price">
+                <p><span>$350</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Smart Home</p>
+                <p>City View</p>
+                <p>Tech Support</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-card" data-aos="fade-up">
+            <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Library Suite" />
+            <div class="plan-content">
+              <h4>Library Suite</h4>
+              <div class="price">
+                <p><span>$325</span> per night</p>
+              </div>
+              <div class="features">
+                <p>Premium WiFi</p>
+                <p>Private Library</p>
+                <p>Garden View</p>
+                <p>Reading Room</p>
+              </div>
+              <div class="select-package">
+                <a href="#">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog and news section -->
+    <div class="blog-and-news" id="blog-and-news">
+      <div class="container">
+        <div class="heading-blog" data-aos="fade-up">
+          <h2>Latest Updates & Stories</h2>
+          <div class="blog-container">
+            <p>
+              Discover the latest news, events, and stories from Rayal Park. Stay connected with our luxury experiences.
+            </p>
+          </div>
+        </div>
+        <div class="blog-contents">
+          <div class="blog" data-aos="fade-down">
+            <div class="blog-image-wrapper">
+              <img src="img/resort.jpg" alt="Spa & Wellness Center" />
+              <div class="blog-category">Wellness</div>
+            </div>
+            <div class="blog-info">
+              <div class="time-posted">
+                <div class="rounded">
+                  <span class="fa fa-calendar" aria-hidden="true"></span>
+                </div>
+                <h4>April 20, 2024</h4>
+              </div>
+              <div class="blog-author">
+                <div class="rounded">
+                  <span class="fa fa-user" aria-hidden="true"></span>
+                </div>
+                <h4>Rayal Park Team</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h4>New Spa & Wellness Center Opening Soon!</h4>
+              <p>
+                Experience ultimate relaxation with our new state-of-the-art spa facilities. Featuring premium treatments, wellness programs, and exclusive member benefits.
+              </p>
+              <a href="#" class="read-more">Read More <span class="fa fa-arrow-right"></span></a>
+            </div>
+          </div>
+          <div class="blog second" data-aos="fade-up">
+            <div class="blog-image-wrapper">
+              <img src="img/villa.jpg" alt="Beach Access Package" />
+              <div class="blog-category">Special Offers</div>
+            </div>
+            <div class="blog-info">
+              <div class="time-posted">
+                <div class="rounded">
+                  <span class="fa fa-calendar" aria-hidden="true"></span>
+                </div>
+                <h4>April 21, 2024</h4>
+              </div>
+              <div class="blog-author">
+                <div class="rounded">
+                  <span class="fa fa-user" aria-hidden="true"></span>
+                </div>
+                <h4>Rayal Park Team</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h4>Summer Special: Exclusive Beach Access Package</h4>
+              <p>
+                Book your summer stay now and enjoy exclusive access to our private beach. Complete with premium amenities, water sports, and personalized service.
+              </p>
+              <a href="#" class="read-more">Read More <span class="fa fa-arrow-right"></span></a>
+            </div>
+          </div>
+          <div class="blog third" data-aos="fade-up">
+            <div class="blog-image-wrapper">
+              <img src="img/classic-room-cropped.jpg" alt="Culinary Experience" />
+              <div class="blog-category">Dining</div>
+            </div>
+            <div class="blog-info">
+              <div class="time-posted">
+                <div class="rounded">
+                  <span class="fa fa-calendar" aria-hidden="true"></span>
+                </div>
+                <h4>April 22, 2024</h4>
+              </div>
+              <div class="blog-author">
+                <div class="rounded">
+                  <span class="fa fa-user" aria-hidden="true"></span>
+                </div>
+                <h4>Rayal Park Team</h4>
+              </div>
+            </div>
+            <div class="blog-content">
+              <h4>New Michelin-Starred Chef Joins Our Culinary Team</h4>
+              <p>
+                Experience exceptional dining with our new executive chef. Bringing innovative cuisine and world-class culinary experiences to Rayal Park.
+              </p>
+              <a href="#" class="read-more">Read More <span class="fa fa-arrow-right"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="blog-cta" data-aos="fade-up">
+          <a href="#" class="view-all-posts">View All Posts</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Review contents section -->
+    <div class="reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h3>Guest Experiences</h3>
+        </div>
+        <div class="review">
+          <div class="image-review" data-aos="fade-down">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Luxury Hotel View" />
+          </div>
+          <div class="review-box" data-aos="fade-down">
+            <div class="arrow-buttons">
+              <a href="#">
+                <span class="material-icons-outlined">navigate_before</span>
+              </a>
+              <a href="#">
+                <span class="material-icons-outlined">navigate_next</span>
+              </a>
+            </div>
+            <div class="review-information">
+              <div class="content-review">
+                <span class="fa fa-quote-left" aria-hidden="true"></span>
+                <p class="italic">
+                  "An absolutely incredible experience!
+                  <br><br>
+                  The attention to detail and level of service at Rayal Park is unmatched.
+                  <br><br>
+                  I can't wait to return!"
+                </p>
+              </div>
+              <div class="reviewer">
+                <img
+                  class="rounded-image"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+                  alt="Guest Photo"
+                />
+                <div class="reviewer-profile">
+                  <h4 class="reviewer-name">Olivia Blisset</h4>
+                  <p>Loyal Guest</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Other information section -->
+    <div class="more-information-section">
+      <div class="container">
+        <div class="company-info">
+          <h4>Rayal Park</h4>
+          <a href="tel:+8612304440">
+            <span class="fa fa-phone icon" aria-hidden="true"></span>
+            +212 643-55216
+          </a>
+          <a href="mailto:rayalpark@gmail.com">
+            <span class="fa fa-envelope-o icon" aria-hidden="true"></span>
+            nafiesiham36@gmail.com
+
+          </a>
+          <p> N° 54, quartier Al-Salam. Al-Jadida Morocco</p>
+        </div>
+        <div class="legal">
+          <h4>Legal</h4>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies Policy</a>
+        </div>
+        <div class="resources">
+          <h4>Resources</h4>
+          <a href="#">How It Works</a>
+          <a href="#">Features</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe to receive exclusive offers and updates</p>
+          <div class="submit">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <input class="email-submit" type="submit" value="Subscribe" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <div class="container">
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/siham-nafie/">
+            <span class="fa fa-linkedin" aria-hidden="true"></span>
+          </a>
+          
+          <a href="https://www.instagram.com/f57.dev/">
+            <span class="fa fa-instagram" aria-hidden="true"></span>
+          </a>
+        </div>
+        <p class="white">© Copyright 2025 Rayal Park. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    AOS.init();
+  </script>
+</html>

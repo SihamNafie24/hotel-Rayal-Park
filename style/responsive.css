@@ -1,0 +1,353 @@
+/* Bigger Screen Responsive */
+
+@media (max-width: 1200px) {
+
+    .main-text {
+        width: 70%;
+    }
+
+    .main-image {
+        width: 30%;
+    }
+}
+
+/* Fix form */
+@media screen and (max-width: 1055px) {
+    input {
+        width: 170px;
+    }
+
+    .company-info p {
+        margin-bottom: 0px;
+    }
+}
+
+/* Responsive Tablet */
+@media (max-width: 1000px) {
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    .rounded {
+        margin-right: 10px;
+    }
+
+    .blog-author {
+        padding-left: 50px;
+    }
+
+    .second {
+        margin: 0;
+    }
+    
+    .section-title h3 {
+        font-size: 1.5rem;
+    }
+
+    .review {
+        flex-wrap: wrap;
+        padding-bottom: 200px;
+    }
+    
+    .image-review {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .review-information {
+        top: 80px;
+    }
+    
+    .image-review img {
+        width: 100%;
+    }
+
+    .review-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .more-information-section {
+        padding-bottom: 650px;
+        text-align: center;
+    }
+
+    .more-information-section a {
+        text-align: center;
+    }
+
+    .company-info, .company-info p {
+        width: 100%;
+    }
+
+    .legal {
+        width: 100%;
+    }
+
+    .resources {
+        width: 100%;
+    }
+
+    .newsletter {
+        width: 100%;
+        float: left;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .newsletter p {
+        margin-top: 0px;
+    }
+}
+
+/* Responsive Medium */
+@media screen and (max-width: 900px) {
+
+    .navbar {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100vw;
+        border-radius: 0px;
+    }
+
+    .blog {
+        width: 100%;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    .second {
+        margin-right: 0;
+    }
+
+    .blog-contents {
+        flex-wrap: wrap;
+    }
+
+    .image-about {
+        width: 20%;
+        background-image: url('../img/resort.jpg');
+    }
+
+    .image-about img {
+        display: none;
+    }
+
+    .box-about {
+        width: 70%;
+    }
+
+    .image-services {
+        width: 20%;
+        background-image: url(../img/profile-pic.jpg);
+    }
+
+    .image-services img {
+        display: none;
+    }
+
+    .box-description {
+        width: 80%;
+        margin: 0;
+    }
+    .plan-contents {
+        flex-wrap: wrap;
+    }
+
+    .plan-card {
+        width: 60%;
+        margin: 0 20%;
+        margin-bottom: 60px !important;
+    }
+
+}
+
+/* Responsive Smartphone */
+@media all and (max-width: 670px) {
+
+    .main-image {
+        width: 20%;
+    }
+
+    .main-text {
+        width: 80%;
+    }
+
+    .container-main {
+        width: 60%;
+        margin: 0 0 0 100px;
+        padding-top: 170px;
+    }
+
+    .navbar-option {
+        display: none;
+    }
+
+    .navbar-option.responsive {
+        display: block;
+    }
+
+    .navbar-option.responsive a {
+        margin-top: 10px;
+    }
+
+    .navbar-option.responsive a:hover {
+        background-color: #1a6b54;
+        border-bottom: none;
+        color: #fff;
+    }
+
+    .right-navbar a.hamburger {
+        display: block;
+        float: right;
+    }
+
+    .left-navbar.responsive {
+        display: block;
+    }
+
+    .navbar.responsive {
+        position: fixed;
+    }
+
+    .navbar.responsive a.hamburger {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navbar.responsive a.bookNow {
+        position: absolute;
+        top: 21px;
+        right: 52px;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .blog {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .second {
+        margin: 0;
+    }
+
+    .blog-contents {
+        flex-wrap: wrap;
+    }
+
+    .section-title h3 {
+        font-size: 1.2rem;
+    }
+
+    .review {
+        margin-bottom: 60px;
+    }
+
+    .reviewer-name {
+        font-size: 1rem;
+    }
+
+    .white {
+        padding-top: 20px;
+    }
+
+    .social-media {
+        padding-top: 25px;
+    }
+
+    .review-information {
+        width: 90%;
+    }
+}
+
+/* Responsive lower screen */
+@media screen and (max-width: 600px) {
+    .services {
+        display: inline-block;
+    }
+}
+
+/* Lower smartphone screen */
+@media screen and (max-width: 485px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.0rem;
+    }
+
+    .main-text {
+        width: 90%;
+    }
+
+    .main-image {
+        width: 10%;
+    }
+
+    .main-contents {
+        height: 600px;
+    }
+
+    .container-main {
+        width: 80%;
+        margin: 0 0 0 50px;
+        padding-top: 100px;
+    }
+
+    .image-about {
+        width: 13%;
+    }
+
+    .box-about {
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    .box-description p {
+        width: 90%;
+    }
+
+    .image-services {
+        width: 13%;
+    }
+
+    .plan-card {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+
+/* Responsive lowest screen */
+@media screen and (max-width: 385px) {
+    .blog-info {
+        display: block;
+    }
+
+    .blog-author {
+        padding: 20px 0 0 0;
+    }
+
+    .blog-contents h4 {
+        width: 100%;
+    }
+
+    .blog-contents p {
+        width: 90%;
+    }
+}
+
